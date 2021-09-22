@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper indigo">
+        <a href="#" class="brand-logo center">NotesApp</a>
+      </div>
+    </nav>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col xl6 s12 offset-xl3">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title"> Agregar notas </span>
+              <div class="row">
+                <div class="input-field col s12 xl6">
+                  <input id="title" type="text" class="validate" />
+                  <label for="title">Titulo</label>
+                </div>
+                <div class="input-field col s12 xl6">
+                  <input id="content" type="text" class="validate" />
+                  <label for="content">Contenido</label>
+                </div>
+                <div class="col s12">
+                  <a class="waves-effect waves-light btn indigo lighten-1" onclick="addNote()"
+                    >Agregar</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="notes">
+        
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
