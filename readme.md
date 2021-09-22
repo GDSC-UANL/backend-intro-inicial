@@ -2,7 +2,7 @@
 <p align="center">
     <img src="./assets/logo.png"  alt="Logo" width="70px" >
 
-  <h2 align="center">Introducción al desarrollo web</23>
+  <h2 align="center">Introducción al Backend</23>
 
 </p>
 
